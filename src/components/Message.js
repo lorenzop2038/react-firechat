@@ -1,7 +1,8 @@
-import { formatRelative } from "data-fns";
+import { formatRelative } from 'date-fns';
+
 
 const formatDate = date => {
-    let formattedDate = "";
+    let formattedDate = '';
     if (date) {
         formattedDate = formatRelative(date, new Date());
         formattedDate =
@@ -9,18 +10,20 @@ const formatDate = date => {
     }
     return formattedDate;
 };
-    
+
 
 const Message = ({
     createdAt = null,
-    text = "",
-    displayName = "",
-    photoURL = "",
+    text = '',
+    displayName = '',
+    photoURL = '',
 }) => {
     if (!text) return null;
 
+    
     return (
-        <div>
+        <div class="todo">
+            
             {photoURL ? (
                 <img
                     src={photoURL}
@@ -30,12 +33,14 @@ const Message = ({
                     height={45}
                 />
             ) : null}
-            {displayName ? <p>{displayName}</p> : null}
+            
+            {displayName ? <p >{displayName}</p> : null}
             {createdAt?.seconds ? (
-                <span>{formattedDate(new Date(createdAt.seconds * 1000))}</span>
+                <span>{formatDate(new Date(createdAt.seconds * 1000))}</span>
             ) : null}
-            <p>{text}</p>
+            <div class="text"><p class="hola">{text}</p></div>
         </div>
+        
     );;
 };
 
