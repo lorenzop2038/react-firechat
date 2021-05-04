@@ -26,7 +26,7 @@ function App() {
         </>
       ) : <Button onClick={signInWithGoogle} > Sign In With Google </Button>
       
-        }
+      }
       
     </div>
   );
