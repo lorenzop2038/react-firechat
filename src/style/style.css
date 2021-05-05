@@ -19,7 +19,8 @@ input[type=text]{
 }
 input[type=text]:focus{
   border-color:rgb(146, 194, 241);
-  box-shadow:0 0 8px 0 rgb(145, 167, 189);
+  box-shadow:0 0 15px 0 rgb(255, 240, 240);
+  position: absolute;
 }
 .enviar{
   width: 80px;
@@ -66,7 +67,7 @@ form button {
 }
 button{
   position: center;
-  left: 625px;
+  left: 600px;
 }
 button:disabled {
   opacity: 0.5;
@@ -80,7 +81,7 @@ button:disabled {
 }
 .todo{
   background-color: 173, 171, 166;
-  height: 175px;
+  height: 160px;
   padding: 0px;
 }
 ul, li {
