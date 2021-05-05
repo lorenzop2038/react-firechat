@@ -2,7 +2,6 @@ body{
     background-color: blanchedalmond;
   }
   
-  
   input[type=text]{
       position: absolute;
       left: 100px;
@@ -16,8 +15,7 @@ body{
       padding:8px;
       box-sizing:border-box;
       transition:.3s;
-      unicode-bidi: bidi-override;
-      
+      unicode-bidi: bidi-override; 
     }
     
     input[type=text]:focus{
@@ -82,17 +80,10 @@ body{
           background-color: white;
         }
         
-        
           p{
               color: black;
           }
-        
-        
-        
-        
-        
-        
-        
+      
         form button {
          
           width: 20%;
@@ -107,7 +98,6 @@ body{
           opacity: 0.5;
           cursor: not-allowed;
         }
-        
         
         .sign-in {
           color: #282c34;
@@ -127,8 +117,6 @@ body{
           color: black;
   
         }
-        
-        
         ul, li {
           text-align: left;
           list-style: none;
@@ -156,15 +144,7 @@ body{
           top: -110px;
           left: -150px;
           
-          
-          
         }
-        
-        
-        
-        
-        
-        
         
         img {
           
@@ -192,8 +172,7 @@ body{
         font-weight: 700;
         cursor: pointer;
       }
-      
-      
+   
       span{
         position: relative;
         left: 200px;
@@ -213,8 +192,7 @@ body{
         height: 70px;
         position: fixed;
         box-shadow: 0px 0px 10px black;
-        
-        
+         
       }
       h4{
         position: absolute;
