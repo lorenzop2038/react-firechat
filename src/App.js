@@ -24,7 +24,8 @@ function App() {
         <center>
         
        
-        <header><h4>FIRE-CHAT</h4><Button onClick={signOut}> Logout Google</Button></header>
+        <header><h4>FIRE-CHAT</h4>
+        <Button onClick={signOut}> Logout Google</Button></header>
         <br></br><br></br><br></br>
         <div class="contenedor">
         <br></br><br></br><br></br>
