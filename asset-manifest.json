@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-firechat/static/css/main.7528098b.chunk.css",
+    "main.css": "/react-firechat/static/css/main.44987bec.chunk.css",
     "main.js": "/react-firechat/static/js/main.6b7efeb6.chunk.js",
     "main.js.map": "/react-firechat/static/js/main.6b7efeb6.chunk.js.map",
     "runtime-main.js": "/react-firechat/static/js/runtime-main.ec4c1ccd.js",
@@ -10,13 +10,13 @@
     "static/js/3.dee7cb1f.chunk.js": "/react-firechat/static/js/3.dee7cb1f.chunk.js",
     "static/js/3.dee7cb1f.chunk.js.map": "/react-firechat/static/js/3.dee7cb1f.chunk.js.map",
     "index.html": "/react-firechat/index.html",
-    "static/css/main.7528098b.chunk.css.map": "/react-firechat/static/css/main.7528098b.chunk.css.map",
+    "static/css/main.44987bec.chunk.css.map": "/react-firechat/static/css/main.44987bec.chunk.css.map",
     "static/js/2.563c2ca9.chunk.js.LICENSE.txt": "/react-firechat/static/js/2.563c2ca9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ec4c1ccd.js",
     "static/js/2.563c2ca9.chunk.js",
-    "static/css/main.7528098b.chunk.css",
+    "static/css/main.44987bec.chunk.css",
     "static/js/main.6b7efeb6.chunk.js"
   ]
 }
