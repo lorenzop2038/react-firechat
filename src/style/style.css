@@ -1,5 +1,5 @@
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(133, 130, 125);
   }
   
   
@@ -50,7 +50,7 @@ body{
           max-width: 1235px;
           margin: auto;
           margin-top: 100px;
-          background: #ffff;
+          background: rgb(212, 212, 212);
           padding: 15px;
           height: 400px;
           overflow: auto;
@@ -65,13 +65,14 @@ body{
         color: black;
         position: relative;
         left: -30px;
+        font-family: agency fb;
       }
       
       img{
         width: 60px;
         height: 44px;
         border-radius: 22px;
-        color: white;
+        color: rgb(212, 212, 212);
         text-align: center;
         background-repeat: no-repeat;
         background-position: center;
@@ -79,7 +80,8 @@ body{
       }
   
       body {
-          background-color: white;
+          background-color: rgb(212, 212, 212);
+          
         }
         
         
@@ -110,8 +112,8 @@ body{
         
         
         .sign-in {
-          color: #282c34;
-          background: white;
+          color: #787a80;
+          background: rgb(102, 97, 97);
           max-width: 400px;
           margin: 0 auto;
         }
@@ -221,6 +223,6 @@ body{
         top: -18px;
         left: 80px;
         color: red;
-        font-family: fantasyS;
+        font-family: agency fb;
         font-size: 28px;
         }
