@@ -4,13 +4,13 @@ body{
 }
 input[type=text]{
   position: absolute;
-  left: 10px;
+  
   top: 700px;
   width:35%;
   height:50px;
   border:2px solid #aaa;
   border-radius:4px;
- 
+  margin:8px 0;
   outline:none;
   padding:8px;
   box-sizing:border-box;
